@@ -78,8 +78,8 @@ function Content() {
                 <option value="College">College</option>
                 <option value="Payments">Payments</option>      
               </select>
-              <div onClick={() => deleteItem(index)} className="img">
-                <img src={deleteSvg} alt="" />
+              <div  className="img">
+                <img onClick={() => deleteItem(index)} src={deleteSvg} alt="" />
               </div>
             </div>
           ))}
