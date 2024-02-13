@@ -1,0 +1,137 @@
+ul {
+    font-family:inherit;
+    font-size: 22px;
+    line-height: 26px;
+    color: #525252;
+    
+}
+
+ul li {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+h4{
+    color:#EA5959;
+    margin: 0;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.left {
+    padding:150px 65px 340px 52px;
+    border-right: 1px solid #D8D8D8
+}
+
+h2{
+    padding: 30px 560px 30px 40px;
+    margin: 0;
+}
+
+.add-input{
+    Width: 648px;
+    margin: 0 0 35px 40px;
+    padding: 13px 0 16px 26px;
+    background-color: #F3F3F3;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    display: inline-block;
+    position: relative;
+}
+.right {
+    position: relative;
+}
+
+.addButton {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    position: absolute;
+    right: 35px;
+    top: 106px;
+    cursor: pointer;
+    background-color: #EA5959;
+    border-radius: 7px;
+}
+.addCategory:hover{
+     transform: scale(1.25);
+}
+
+.addCategory{
+     width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    cursor: pointer;
+    background-color: #EA5959;
+    border-radius: 7px;
+}
+
+.addButton:hover{
+     transform: scale(1.05);
+ }
+
+
+input::placeholder{
+color: #B5B5B5;
+}
+
+.right ul {
+    margin-left: 40px;
+    position: relative;
+}
+
+.right ul li {
+    width: 320px;
+    margin-left: 30px;
+}
+
+.tasks-input {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+select {
+    border: none;
+    width: 115px;
+    background-color: #EA5959;
+    color: #fff;
+    border-radius: 7px;
+    height: 35px;
+    appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+   outline: none;
+   font-size: 16px;
+   text-align: center;
+}
+
+select option {
+    background-color: #fff;
+    color: #EA5959;
+}
+
+.img{
+    display: none;
+    width: 170px;
+    justify-content: flex-end;
+}
+
+.img img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.tasks{
+    display: flex;
+    transition: transform 0.1s;
+}
+
+.tasks:hover .img, .tasks{
+    display: flex;
+}
