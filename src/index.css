@@ -24,11 +24,12 @@ a {
 .container {
   display: flex;
     width: 100%;
-    max-Width:983px;
+    height: 624px;
+    Width:983px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0px 10px 10px 0px #00000040;
-
+    margin-top: 100px;
 }
 
 #root {

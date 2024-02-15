@@ -11,21 +11,40 @@ ul li {
     display: flex;
 }
 
-h4{
+.category {
+    margin: 140px 0 0 50px;
+}
+
+.category label {
+    font-size: 22px;
+}
+
+.category input {
+    visibility: hidden;
+}
+
+.category label:hover
+{
     color:#EA5959;
-    margin: 0;
-    margin-bottom: 25px;
-    position: relative;
+    cursor: pointer;
+}
+
+.category input:checked + label{
+     color:#EA5959;
+    cursor: pointer;
 }
 
 .left {
-    padding:150px 65px 340px 52px;
+    width: 212px;
+    height: 624px;
     border-right: 1px solid #D8D8D8
 }
 
+
+
 h2{
-    padding: 30px 560px 30px 40px;
-    margin: 0;
+    /* width: 200px; */
+    margin: 30px 0 30px 40px;
 }
 
 .add-input{
@@ -42,6 +61,8 @@ h2{
 .right {
     position: relative;
 }
+
+
 
 .addButton {
     width: 45px;
@@ -72,6 +93,7 @@ h2{
 
 .addButton:hover{
      transform: scale(1.05);
+    
  }
 
 
@@ -81,10 +103,12 @@ color: #B5B5B5;
 
 .right ul {
     margin-left: 40px;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
-.right ul li {
+.tasks label {
     width: 320px;
     margin-left: 30px;
 }
@@ -93,15 +117,16 @@ color: #B5B5B5;
     width: 25px;
     height: 25px;
     cursor: pointer;
+    border: 1px solid #EA5959;
 }
 
-select {
+.type {
     border: none;
     width: 115px;
     background-color: #EA5959;
     color: #fff;
     border-radius: 7px;
-    height: 35px;
+    height: 30px;
     appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -110,9 +135,9 @@ select {
    text-align: center;
 }
 
-select option {
-    background-color: #fff;
-    color: #EA5959;
+.type h4 {
+   margin: 0;
+   padding: 0;
 }
 
 .img{
